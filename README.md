@@ -1,9 +1,5 @@
-# dbnote
 
-
-2019-07-05 github 이용 강의노트 만들어보기
-
-# 제목1
+# 데이터베이스 환경구축 하기
 
 ●데이터베이스 다운
 -database
@@ -32,12 +28,25 @@ sqldeveloper-19.1.0.094.2042-x64 폴더 클릭
 c드라이브에 sqldeveloper 이동 (D드라이브에 sqldeveloper ->컨트롤+X)
 sqldeveloper 보내기로 바탕화면에 생성
 
->> 들여쓰기 블럭 2
+--------------------------------------------
+cmd에서 확인
+cls - 화면 지우기
+cmd - sqlplus 입력 - 버전확인
+user-name : system
+password : 1234
+-exit
+sqlplus system/1234 - 접속확인
+-exit
+sqlplus / as sysdba
+---------------------------------------------
+sqldeveloper 접속
+좌측상단 초록색 + 클릭
+Name : 관리자
+사용자 이름 : system
+비밀번호 : 1234
+입력 후 테스트 클릭 -> 상태 : 성공 ->접속
 
-````html
-<html>
-	<head>
-	</head>
-	<body>
-	</body>
-</html>
+다른사용자->HR유저(교육용으로 만들어진 계정)
+계정 락 풀어주기
+워크시트
+alter user hr IDENTIFIED by hr ACCOUNT unlock;

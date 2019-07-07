@@ -28,7 +28,7 @@ sqldeveloper-19.1.0.094.2042-x64 폴더 클릭
 c드라이브에 sqldeveloper 이동 (D드라이브에 sqldeveloper ->컨트롤+X)
 sqldeveloper 보내기로 바탕화면에 생성
 
---------------------------------------------
+
 cmd에서 확인
 cls - 화면 지우기
 cmd - sqlplus 입력 - 버전확인
@@ -38,7 +38,7 @@ password : 1234
 sqlplus system/1234 - 접속확인
 -exit
 sqlplus / as sysdba
----------------------------------------------
+
 sqldeveloper 접속
 좌측상단 초록색 + 클릭
 Name : 관리자

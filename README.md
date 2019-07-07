@@ -28,6 +28,7 @@ sqldeveloper-19.1.0.094.2042-x64 폴더 클릭
 c드라이브에 sqldeveloper 이동 (D드라이브에 sqldeveloper ->컨트롤+X)
 sqldeveloper 보내기로 바탕화면에 생성
 
+## 설치 확인
 
 cmd에서 확인
 cls - 화면 지우기
